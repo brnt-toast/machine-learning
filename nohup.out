@@ -1,0 +1,38 @@
+[I 16:00:00.536 NotebookApp] The port 8888 is already in use, trying another port.
+[I 16:00:00.537 NotebookApp] The port 8889 is already in use, trying another port.
+[I 16:00:00.537 NotebookApp] Serving notebooks from local directory: /Users/blacc/Documents/machine-learning
+[I 16:00:00.537 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 16:00:00.537 NotebookApp] http://localhost:8890/?token=b0d6dfb3d0647a89ab14b9d8be75f05aa99eeac8fe67b2c0
+[I 16:00:00.538 NotebookApp]  or http://127.0.0.1:8890/?token=b0d6dfb3d0647a89ab14b9d8be75f05aa99eeac8fe67b2c0
+[I 16:00:00.538 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:00:00.541 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/blacc/Library/Jupyter/runtime/nbserver-35786-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=b0d6dfb3d0647a89ab14b9d8be75f05aa99eeac8fe67b2c0
+     or http://127.0.0.1:8890/?token=b0d6dfb3d0647a89ab14b9d8be75f05aa99eeac8fe67b2c0
+[W 16:00:04.527 NotebookApp] Notebook hello-world.ipynb is not trusted
+[I 16:00:04.627 NotebookApp] Kernel started: 57c73bed-fdf6-49f8-8e2c-b317ab5f4d7e, name: python3
+[I 16:02:04.595 NotebookApp] Saving file at /hello-world.ipynb
+[I 16:04:04.624 NotebookApp] Saving file at /hello-world.ipynb
+[I 16:06:04.639 NotebookApp] Saving file at /hello-world.ipynb
+[I 16:08:04.637 NotebookApp] Saving file at /hello-world.ipynb
+[I 16:10:04.629 NotebookApp] Saving file at /hello-world.ipynb
+[I 16:12:04.642 NotebookApp] Saving file at /hello-world.ipynb
+[I 16:14:04.672 NotebookApp] Saving file at /hello-world.ipynb
+Metal device set to: Apple M1
+2022-07-31 16:15:57.755538: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:305] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2022-07-31 16:15:57.755874: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:271] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+[I 16:16:04.686 NotebookApp] Saving file at /hello-world.ipynb
+[I 16:20:24.964 NotebookApp] Creating new notebook in 
+[I 16:20:25.640 NotebookApp] Kernel started: 4f20fb6d-1b7b-4f11-b1fd-e87feb4f920a, name: python3
+[I 16:22:25.657 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:24:04.780 NotebookApp] Saving file at /hello-world.ipynb
+2022-07-31 16:24:59.585082: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+2022-07-31 16:24:59.749695: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
+[I 16:26:04.814 NotebookApp] Saving file at /hello-world.ipynb
+2022-07-31 16:28:01.947975: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
+[I 16:28:04.837 NotebookApp] Saving file at /hello-world.ipynb
+[W 16:29:59.086 NotebookApp] Notebook Untitled.ipynb is not trusted
+[W 16:30:20.367 NotebookApp] Notebook Untitled.ipynb is not trusted
