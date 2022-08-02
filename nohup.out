@@ -281,3 +281,101 @@ Metal device set to: Apple M1
       "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15"
     }
 [E 17:14:45.296 NotebookApp] 500 DELETE /api/sessions/dc260153-ff73-41c4-962c-5039b9fa8cec (::1) 7.130000ms referer=http://localhost:8890/notebooks/computer_vision.ipynb
+[C 09:24:43.471 NotebookApp] received signal 15, stopping
+[I 09:24:43.487 NotebookApp] Shutting down 0 kernels
+[I 09:24:43.496 NotebookApp] Shutting down 0 terminals
+nohup: jupter: No such file or directory
+[I 2022-08-02 07:57:33.421 LabApp] JupyterLab extension loaded from /Users/blacc/Library/Python/3.8/lib/python/site-packages/jupyterlab
+[I 2022-08-02 07:57:33.422 LabApp] JupyterLab application directory is /Users/blacc/Library/Python/3.8/share/jupyter/lab
+[I 07:57:33.424 NotebookApp] Serving notebooks from local directory: /Users/blacc/Documents/machine-learning
+[I 07:57:33.424 NotebookApp] Jupyter Notebook 6.4.8 is running at:
+[I 07:57:33.424 NotebookApp] http://localhost:8888/?token=31b12a7aea8a1d34bd0a1f4f980a5e6f6e8efa3838ef3ab2
+[I 07:57:33.424 NotebookApp]  or http://127.0.0.1:8888/?token=31b12a7aea8a1d34bd0a1f4f980a5e6f6e8efa3838ef3ab2
+[I 07:57:33.424 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 07:57:33.426 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/blacc/Library/Jupyter/runtime/nbserver-22520-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=31b12a7aea8a1d34bd0a1f4f980a5e6f6e8efa3838ef3ab2
+     or http://127.0.0.1:8888/?token=31b12a7aea8a1d34bd0a1f4f980a5e6f6e8efa3838ef3ab2
+[I 07:57:48.409 NotebookApp] Creating new notebook in 
+[I 07:57:48.970 NotebookApp] Kernel started: c5eb8256-be4a-4530-8ec0-87817e890abb, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8aa80502-9b09-4b7a-922b-5aab9d2ee6a6
+[I 07:59:31.644 NotebookApp] interrupted
+Serving notebooks from local directory: /Users/blacc/Documents/machine-learning
+1 active kernel
+Jupyter Notebook 6.4.8 is running at:
+http://localhost:8888/?token=31b12a7aea8a1d34bd0a1f4f980a5e6f6e8efa3838ef3ab2
+ or http://127.0.0.1:8888/?token=31b12a7aea8a1d34bd0a1f4f980a5e6f6e8efa3838ef3ab2
+Shutdown this notebook server (y/[n])? [C 07:59:33.459 NotebookApp] received signal 2, stopping
+[I 07:59:33.461 NotebookApp] Shutting down 1 kernel
+[I 07:59:33.463 NotebookApp] Kernel shutdown: c5eb8256-be4a-4530-8ec0-87817e890abb
+[I 07:59:33.492 NotebookApp] Starting buffering for c5eb8256-be4a-4530-8ec0-87817e890abb:c4d03e2303dc4c2783e7d5620cb62f38
+[I 07:59:33.529 NotebookApp] Kernel shutdown: c5eb8256-be4a-4530-8ec0-87817e890abb
+[E 07:59:33.529 NotebookApp] Uncaught exception DELETE /api/sessions/9b709bf7-aea6-41a0-bf6c-7ba6c97464cd (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='DELETE', uri='/api/sessions/9b709bf7-aea6-41a0-bf6c-7ba6c97464cd', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/tornado/gen.py", line 769, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/notebook/services/sessions/handlers.py", line 162, in delete
+        yield maybe_future(sm.delete_session(session_id))
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/tornado/gen.py", line 775, in run
+        yielded = self.gen.send(value)
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/notebook/services/sessions/sessionmanager.py", line 287, in delete_session
+        yield maybe_future(self.kernel_manager.shutdown_kernel(session['kernel']['id']))
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/notebook/services/kernels/kernelmanager.py", line 304, in shutdown_kernel
+        self.pinned_superclass.shutdown_kernel(self, kernel_id, now=now, restart=restart)
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/nest_asyncio.py", line 81, in run_until_complete
+        return f.result()
+      File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/asyncio/futures.py", line 178, in result
+        raise self._exception
+      File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/asyncio/tasks.py", line 280, in __step
+        result = coro.send(None)
+      File "/Users/blacc/Library/Python/3.8/lib/python/site-packages/jupyter_client/multikernelmanager.py", line 274, in _async_shutdown_kernel
+        if km.ready.exception():
+    asyncio.exceptions.InvalidStateError: Exception is not set.
+[W 07:59:33.542 NotebookApp] Unhandled error
+[E 07:59:33.542 NotebookApp] {
+      "Host": "localhost:8888",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|32fbb3e5|6ba1f7c18def2eaf20a29759c04ab854|1658073578",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://localhost:8888",
+      "Content-Length": "0",
+      "Connection": "keep-alive",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15",
+      "Referer": "http://localhost:8888/notebooks/OCR.ipynb",
+      "Cookie": "username-localhost-8888=\"2|1:0|10:1659441454|23:username-localhost-8888|44:YzhhYzRlMzJjYjYyNGQ5M2ExZDBjYTg3YTFhODA2ZjU=|84215e3354b06cef3b610e0683d0a2c52ef44783318f509d36989e2d385f475b\"; username-localhost-8890=\"2|1:0|10:1659297601|23:username-localhost-8890|44:OTNiOTU0MmM0NmMyNGJmNjg2ZWFkOWFhZTdhYjM1Mzk=|4246a9e1aa49a29b9e03758c87a569a6051fa7f24a06e0a222ddb5239ad2caa4\"; username-localhost-8889=\"2|1:0|10:1659296364|23:username-localhost-8889|44:ZGE4ZWY0YzQ2ZWJhNGM0ODhhZDliM2Y4MWY0MWMxODQ=|a0e4ceebf84341e162c2cc726176534e7a44c2c32c4d266eab281630341a20ba\"; _xsrf=2|32fbb3e5|6ba1f7c18def2eaf20a29759c04ab854|1658073578"
+    }
+[E 07:59:33.542 NotebookApp] 500 DELETE /api/sessions/9b709bf7-aea6-41a0-bf6c-7ba6c97464cd (::1) 14.070000ms referer=http://localhost:8888/notebooks/OCR.ipynb
+[I 07:59:33.577 NotebookApp] Shutting down 0 terminals
+[I 2022-08-02 07:59:52.034 LabApp] JupyterLab extension loaded from /Users/blacc/Library/Python/3.8/lib/python/site-packages/jupyterlab
+[I 2022-08-02 07:59:52.035 LabApp] JupyterLab application directory is /Users/blacc/Library/Python/3.8/share/jupyter/lab
+[I 07:59:52.037 NotebookApp] Serving notebooks from local directory: /Users/blacc/Documents/machine-learning
+[I 07:59:52.037 NotebookApp] Jupyter Notebook 6.4.8 is running at:
+[I 07:59:52.037 NotebookApp] http://localhost:8888/?token=cfd96355c82d6c52151b7eb7beba57556f96999dc72bca48
+[I 07:59:52.037 NotebookApp]  or http://127.0.0.1:8888/?token=cfd96355c82d6c52151b7eb7beba57556f96999dc72bca48
+[I 07:59:52.037 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 07:59:52.039 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/blacc/Library/Jupyter/runtime/nbserver-22549-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=cfd96355c82d6c52151b7eb7beba57556f96999dc72bca48
+     or http://127.0.0.1:8888/?token=cfd96355c82d6c52151b7eb7beba57556f96999dc72bca48
+[I 08:00:03.919 NotebookApp] Kernel started: 575644f3-5f6d-4a48-b602-f2716b26ff07, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: c6a018bd-93ae-4f0c-a26f-e4f8e7f5250a
+[I 08:02:03.936 NotebookApp] Saving file at /OCR.ipynb
