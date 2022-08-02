@@ -3,3 +3,4 @@
 	[ ] code is believed to be working, double check and compare with example
 	[ ] Define all keywords
 	[ ] Annotate code 
+[ ] Verify PyTorch is using GPU
